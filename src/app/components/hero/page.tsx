@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="text-gray-400 body-font">
@@ -42,10 +44,12 @@ export default function Hero() {
           </section>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
+          <Image
             className="object-cover object-center rounded"
             alt="hero"
-            src="https://dummyimage.com/720x600"
+            src={"/nft-placeholder.png"}
+            width={720}
+            height={600}
           />
         </div>
       </div>
