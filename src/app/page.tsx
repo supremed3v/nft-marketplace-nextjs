@@ -1,12 +1,11 @@
-import Image from "next/image";
-import Hero from "./components/hero/page";
-import Navbar from "./components/navbar/page";
+import TrendingCollection from "@/components/trending-collection/page";
+import Hero from "../components/hero/page";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
+      <TrendingCollection />
     </>
   );
 }
